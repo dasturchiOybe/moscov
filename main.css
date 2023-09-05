@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1347px;
+  margin: 0 auto;
+}
+
+header nav {
+  padding-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .rightlink {
+  display: flex;
+  align-items: center;
+}
+header nav .logo {
+  margin-right: 74px;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+}
+header nav ul li {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header nav .menu {
+  display: none;
+}
+header .headersection {
+  background-image: url(../img/image.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: cover;
+  padding-top: 191px;
+}
+header .headersection .left {
+  display: flex;
+  flex-direction: column;
+}
+header .headersection .left .top {
+  margin-left: 89px;
+  margin-bottom: 105px;
+  display: flex;
+  flex-direction: column;
+}
+header .headersection .left .top h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 37px;
+}
+header .headersection .left .top h4 {
+  max-width: 640px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .headersection .left .top p {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .headersection .left .top p span img {
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 81.038px;
+  height: 42.038px;
+  flex-shrink: 0;
+}
+header .headersection .button {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+header .headersection .button img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button{
+  border: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+    max-width: 1347px;
+    margin: 0 auto;
+}
+
+header{
+    nav{
+        padding-top: 41px;
+        display: flex;
+        justify-content: space-between;
+        .rightlink{
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            margin-right: 74px;
+        }
+        ul{
+            display: flex;
+            gap: 40px; 
+            li{
+                color: #000;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }     
+        }
+        .menu{
+            display: none;
+        }
+    }
+        .headersection{
+            background-image: url(../img/image.png);
+            background-repeat: no-repeat;
+            background-position-x: right ;
+            background-position-y: bottom;
+            background-size: cover;
+            padding-top: 191px;
+        .left{
+            display: flex;
+            flex-direction: column;
+            .top{
+                margin-left: 89px;
+                margin-bottom: 105px;
+                display: flex;
+                flex-direction: column;
+                h1{
+                    color: #000;
+                    font-family: Roboto;
+                    font-size: 100px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 37px;
+                }
+                h4{
+                    max-width: 640px;
+                    color: #000;
+                    font-family: Roboto;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                p{
+                    display: flex;
+                    align-items: center;
+                    color: #000;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    span{
+                        img{
+                            padding-top: 5px;
+                            padding-left: 10px;
+                            width: 81.038px;
+                            height: 42.038px;
+                            flex-shrink: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .button{ 
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            img{
+                width: 24px;
+                height: 24px;
+                flex-shrink: 0;
+            }
+        }
+    }
+}
