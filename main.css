@@ -33,6 +33,18 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
 header nav {
   padding-top: 41px;
   display: flex;
@@ -117,6 +129,46 @@ header .headersection .button img {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-image: none;
+  }
+  header nav .logo img {
+    width: 32px;
+    height: 32px;
+  }
+  header nav .menulink {
+    display: none;
+  }
+  header nav .seorch img {
+    width: 32px;
+    height: 32px;
+  }
+  header nav .menu {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    color: #000;
+  }
+  header nav .menu svg {
+    width: 32px;
+    height: 32px;
+  }
+  header .headersection .left .top {
+    margin-left: 0;
+    text-align: center;
+  }
+  header .headersection .button {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .headersection p {
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
