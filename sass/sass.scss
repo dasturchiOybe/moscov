@@ -209,3 +209,26 @@ header{
         }
     }
 }
+@media (max-width:1250px) {
+    body{
+        background-image: none;
+    }
+    .imgmoscow{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    h4{
+        max-width: 50%;
+    }
+    header{
+        .headersection{
+            .button{
+                padding-top: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}
