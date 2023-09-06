@@ -169,6 +169,7 @@ header{
             }
         }
         .headersection{
+            padding-bottom: 20px;
             .left{
                 .top{
                     margin-left: 0;
@@ -180,7 +181,6 @@ header{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                padding-bottom: 20px;
             }
             p{
                 margin: 0 auto;
