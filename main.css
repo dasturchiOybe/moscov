@@ -179,6 +179,9 @@ header .headersection .button img {
     font-size: 300%;
     font-weight: 500;
   }
+  header .headersection .left .top h4 {
+    font-size: 140%;
+  }
   header .headersection .button {
     padding-top: 40px;
     display: flex;
