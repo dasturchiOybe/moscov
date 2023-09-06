@@ -182,6 +182,17 @@ header .headersection .button img {
   header .headersection .left .top h4 {
     font-size: 140%;
   }
+  header .headersection .left .top a {
+    font-size: 17px;
+    padding-top: 15px;
+    align-items: center;
+  }
+  header .headersection .left .top p span img {
+    padding-top: 20px;
+    height: 75px;
+    max-width: 130px;
+    margin-left: 10px;
+  }
   header .headersection .button {
     padding-top: 40px;
     display: flex;
