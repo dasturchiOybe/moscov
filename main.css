@@ -20,6 +20,13 @@ img {
   max-width: 100%;
 }
 
+body {
+  background-image: url(../img/image.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
 .container {
   max-width: 1347px;
   margin: 0 auto;
@@ -53,11 +60,6 @@ header nav .menu {
   display: none;
 }
 header .headersection {
-  background-image: url(../img/image.png);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  background-size: cover;
   padding-top: 191px;
 }
 header .headersection .left {
