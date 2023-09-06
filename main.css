@@ -29,10 +29,16 @@ body {
 }
 
 .container {
-  max-width: 1347px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
+@media (max-width: 1300px) {
+  .container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 1024px) {
   .container {
     max-width: 85%;
@@ -131,6 +137,10 @@ header .headersection .button img {
   flex-shrink: 0;
 }
 
+.imgmoscow {
+  display: none;
+}
+
 @media (max-width: 700px) {
   body {
     background-image: none;
@@ -156,9 +166,18 @@ header .headersection .button img {
     width: 32px;
     height: 32px;
   }
+  header .headersection {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
   header .headersection .left .top {
+    margin-bottom: 50px;
     margin-left: 0;
     text-align: center;
+  }
+  header .headersection .left .top h1 {
+    font-size: 300%;
+    font-weight: 500;
   }
   header .headersection .button {
     padding-top: 40px;
@@ -168,6 +187,9 @@ header .headersection .button img {
   }
   header .headersection p {
     margin: 0 auto;
+  }
+  header .headersection .imgmoscow {
+    display: inline-block;
   }
 }
 

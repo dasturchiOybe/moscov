@@ -29,8 +29,14 @@ body{
 }
 
 .container{
-    max-width: 1347px;
+    max-width: 1300px;
     margin: 0 auto;
+}
+@media (max-width:1300px) {
+    .container{
+        max-width: 85%;
+        margin: 0 auto;
+    }
 }
 @media (max-width:1024px) {
     .container{
@@ -135,6 +141,9 @@ header{
         }
     }
 }
+.imgmoscow{
+    display: none;
+}
 
 @media (max-width: 700px) {
     body{
@@ -173,8 +182,13 @@ header{
             padding-bottom: 20px;
             .left{
                 .top{
+                    margin-bottom: 50px;
                     margin-left: 0;
                     text-align: center;
+                    h1{
+                        font-size: 300%;
+                        font-weight: 500;
+                    }
                 }
             }
             .button{
@@ -187,10 +201,7 @@ header{
                 margin: 0 auto;
             }
             .imgmoscow{
-                
-                img{
-                    // max-width: 500px;
-                }
+                display: inline-block;
             }
         }
     }
