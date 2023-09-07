@@ -21,13 +21,6 @@ img {
   max-width: 100%;
 }
 
-body {
-  background-image: url(../img/image.png);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-}
-
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -79,6 +72,10 @@ header nav .menu {
   display: none;
 }
 header .headersection {
+  background-image: url(../img/image.png);
+  background-repeat: no-repeat;
+  background-position-x: right -100px;
+  background-position-y: bottom;
   padding-top: 191px;
 }
 header .headersection .left {
@@ -101,7 +98,7 @@ header .headersection .left .top h1 {
   margin-bottom: 37px;
 }
 header .headersection .left .top h4 {
-  max-width: 640px;
+  max-width: 590px;
   color: #000;
   font-family: Roboto;
   font-size: 22px;
@@ -206,9 +203,6 @@ header .headersection .button img {
   }
 }
 @media (max-width: 1250px) {
-  body {
-    background-image: none;
-  }
   .imgmoscow {
     display: flex;
     width: 100%;
@@ -216,6 +210,9 @@ header .headersection .button img {
   }
   h4 {
     max-width: 50%;
+  }
+  header .headersection {
+    background-image: none;
   }
   header .headersection .button {
     padding-top: 40px;
